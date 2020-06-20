@@ -10,7 +10,5 @@ def printFile(path,name):
         for i in os.listdir(path+'\\'+name):
             printFile(path+'\\'+name,i)
     return
-
-
 printFile(r'E:\KanKan\VaCache\movie','潘多拉')
 f.close()
