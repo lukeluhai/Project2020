@@ -13,11 +13,11 @@ def crawl_joke_list(page=1):
 
     url1 = page
 
-    headers1 = {
-        "User-Agent": 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
-        "host": '174.127.195.213',
-        'Accept': 'text / html, application / xhtml + xml, application / xml;q = 0.9, image / webp, image / apng, * / *;q = 0.8',
-        'Accept-Encoding': 'gzip, deflate'}
+    # headers1 = {
+    #     "User-Agent": 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+    #     "host": '174.127.195.213',
+    #     'Accept': 'text / html, application / xhtml + xml, application / xml;q = 0.9, image / webp, image / apng, * / *;q = 0.8',
+    #     'Accept-Encoding': 'gzip, deflate'}
 
     res = urllib.request.Request(url1)
     res.add_header(
@@ -85,4 +85,8 @@ if __name__ == '__main__':
 
 #change by gitkraken
 
+
 #change by vs code  local change this line
+
+#change by vs code remote change this line
+
